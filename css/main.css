@@ -6202,10 +6202,10 @@ a.text-dark:hover, a.text-dark:focus {
 section {
   padding: 150px 0; }
   section#about {
-    height: 100vh;
+    height: 65vh;
     background-image: url("../images/bg.svg"); }
   section#contact {
-    min-height: 101vh; }
+    min-height: 65vh; }
 
 .card-img-top {
   max-width: 100px;
@@ -6238,3 +6238,9 @@ a.btn:hover, button.btn:hover {
 
 .linkedin:hover .st6 {
   stroke: #FFF; }
+
+.external .st7 {
+  transition: all 500ms linear; }
+
+.external:hover .st7 {
+  fill: #FFF; }
